@@ -1,0 +1,4 @@
+th 12 = 1350 bdt \local
+th 14 = 4600 bdt \local
+th 11 = 1050 bdt \local
+th 15 = 5.5k bdt \local
