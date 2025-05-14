@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COC Account Tracker</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f3f4f6;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #3b82f6;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border-bottom: 1px solid #e5e7eb;
+    }
+
+    th {
+      background: #3b82f6;
+      color: white;
+    }
+
+    tr:hover {
+      background: #f9fafb;
+    }
+
+    .status {
+      padding: 6px 10px;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .in-market { background: #facc15; color: #92400e; }
+    .sold { background: #22c55e; color: #064e3b; }
+    .paid { background: #3b82f6; color: #1e3a8a; }
+
+    img {
+      height: 60px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Clash of Clans Account Tracker</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Town Hall</th>
+        <th>Photo</th>
+        <th>Local Price</th>
+        <th>Global Price</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>TH12</td>
+        <td><img src="/mail/fjd.jpg" alt="Account 1"></td>
+        <td>$50</td>
+        <td>$60</td>
+        <td><span class="status in-market">In Market</span></td>
+      </tr>
+      <tr>
+        <td>TH14</td>
+        <td><img src="/mail/abc.jpg" alt="Account 2"></td>
+        <td>$90</td>
+        <td>$100</td>
+        <td><span class="status sold">Sold</span></td>
+      </tr>
+      <tr>
+        <td>TH15</td>
+        <td><img src="/mail/xyz.jpg" alt="Account 3"></td>
+        <td>$120</td>
+        <td>$140</td>
+        <td><span class="status paid">Payment Done</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
